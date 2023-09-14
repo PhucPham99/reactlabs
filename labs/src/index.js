@@ -6,12 +6,15 @@ import reportWebVitals from './reportWebVitals';
 import Clock from './components/clock';
 // import App2 from './components/sum';
 import Sum1 from './components/Tong';
+import InCLock from './components/Wclock';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Clock/>
     {/* <App2/> */}
     <Sum1/>
+    <InCLock cityName={'Ha Noi'} muiGio={7} />
+    <InCLock cityName={'Hong Kong'} muiGio={8}/>
   </React.StrictMode>
 );
 
